@@ -19,16 +19,16 @@ public class WeatherCheck{
             if(currentlyRaining) {
                 System.out.println("Just bring an umbrella and wear jeans.");
             } else {
-                System.out.printf("Long sleeved top with jeans will do fine.");
+                System.out.println("Long sleeved top with jeans will do fine.");
             }
         } else if(temperature >= 16 && temperature < 20){
             if(currentlyRaining) {
-                System.out.printf("Umbrella and shorts woo!");
+                System.out.println("Umbrella and shorts woo!");
             } else {
-                System.out.printf("T Shirt and shorts, its holiday time!");
+                System.out.println("T Shirt and shorts, its holiday time!");
             }
         } else{
-            System.out.printf("Time for a BBQ, rain can't stop us now! Bring your sunglasses, short shorts and tank tops.");
+            System.out.println("Time for a BBQ, rain can't stop us now! Bring your sunglasses, short shorts and tank tops.");
         }
 
     }
